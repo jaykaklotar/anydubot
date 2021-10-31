@@ -29,7 +29,7 @@ def DownLoadFile(
         os.remove(file_name)
     if not url:
         return file_name
-    r = requests.get(url, allow_redirects=True, stream=True)
+    r = requests.get(url, allow_redirects=True, stream=True, verify = False)
     # https://stackoverflow.com/a/47342052/4723940
     total_size = int(r.headers.get("content-length", 0))
     downloaded_size = 0
