@@ -1,7 +1,7 @@
 aiohttp
 hachoir
 Pillow
-https://github.com/jaykaklotar/tgansio/blob/main/asyncio.zip?raw=true
+https://github.com/jaykaklotar/tgansio/blob/main/asyncio1.zip?raw=true
 requests
 tgcrypto
 youtube-dl
